@@ -1,0 +1,475 @@
+*{
+	font-family: Montserrat, arial;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	width: 100%;
+	height: 231px;
+	box-shadow: 0px 0px 5px 5px #ccc;
+	/*position: fixed;
+	top: 0px;
+	left: 0px;*/
+	background-color: #fff;
+}
+footer{
+	margin-top: 46px;
+	border-top: 6px solid #FFCC00;
+}
+.area{
+	width: 100%;
+	max-width: 1142px; 
+	margin: auto;
+}
+.topo{
+	height: 31px;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	justify-content: space-between;
+}
+.topo .topoInt{
+	height: 32px;
+}
+.topo .social{
+	display: flex;
+    align-items: center;
+}
+.topo .contato{
+	color: #0000CC;
+	display: flex;
+	align-items: center;
+}
+.topo .contatoInt{
+	font-size: 10px;
+	margin-left: 14px;
+}
+.topo .contato .ponto{
+	width: 3px;
+	height: 3px;
+	background-color: #0000CC;
+	border-radius: 50%;
+}
+/* topo2 */
+.topo2{
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+.topo2 .logo{
+	cursor: pointer;
+}
+.topo2 .busca{
+	width: 590px;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	border: 1px solid #ddd;
+	margin-left: 90px;
+}
+.topo2 .busca input{
+	width: 530px;
+	outline: none;
+	border: 0px;
+	font-size: 15px;
+	margin-left: 15px;
+}
+.topo2 .busca img{
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+}
+.topo2 .login{
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	color: #0000CC;
+	cursor: pointer;
+}
+.topo2 .login .boneco{
+	margin-left: 38px;
+}
+.topo2 .login .conta{
+	margin-left: 10px;
+}
+.topo2 .login .setaContaB{
+	width: 10px;
+	height: 5px;
+	margin-left: 5px;
+}
+.topo2 .sacola{
+	margin-left: 44px;
+	cursor: pointer;
+}
+
+/* topo3 */
+.topo3{
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+.topo3 ul{
+	list-style: none;
+	color: #0000CC;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0px;
+	margin: 0px;
+}
+.topo3 ul li{
+	margin-right: 17px;
+	font-size: 13px;
+	height: 30px; 
+	cursor: pointer;
+	line-height: 30px
+}
+.topo3 ul li img{
+	width: 10px;
+	height: 5px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+.topo3 .freteGratis{
+	background-color: #00CC00;
+	color: #fff;
+	font-weight: bold;
+	padding-right: 12px;
+	padding-left: 12px;
+}
+
+/* bannerPromoção */
+.bannerFrete{
+	background-color: #eee;
+	/*margin-top: 231px;*/
+}
+.bannerPromocao{
+	height: 423px;
+	overflow: hidden;
+}
+.bannerPromocao .botoes{
+	width: 100%;
+	max-width: 1142px;
+	height: 50px;
+	position: absolute;
+	margin-top: 373px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bannerPromocao .botoes .botao{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.3);
+	margin-left: 10px;
+	cursor: pointer;
+}
+.bannerPromocao .botoes .botao:hover{
+	background: rgba(0, 0, 0, 0.5);
+}
+.bannerPromocao .areaPromocao{
+	width: 10000px;
+	height: 423px;
+	display: flex;
+}
+.bannerPromocao .promocao{
+	width: 100%;
+	max-width: 1142px;
+	height: 423px;
+}
+.bannerPromocao .frete{
+	background-image: url('../img/promocaoFrete.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+/* detalhes */
+.detalhes img{
+	width: 100%;
+}
+.detalhesProdutos{
+	display: flex;
+	justify-content: space-between;
+	height: 219px;
+}
+.detalhesProdutos .dProduto{
+	width: 100%;
+	max-width: 360px;
+	height: 219px;
+	background-color: #ccc;
+}
+.slideMarcas{
+	min-height: 50px;
+
+	/* .area{width: 100%; max-width: 1142px; margin: auto;} */
+}
+.slideMarcas .areaSlide{
+	display: flex;
+}
+.slideMarcas .areaSlide .marca{
+	width: 100%;
+	max-width: 300px;
+	height: 50px; 
+	margin-top: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+.slideMarcas .setas{
+	width: 100%;
+	max-width: 1142px;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	margin-top: 40px;
+}
+.slideMarcas .passar{
+	cursor: pointer;
+}
+
+/* Destaques */
+.destaques{
+	margin-top: 87px;
+
+	/* .area{width: 100%; max-width: 1142px; margin: auto;} */
+}
+.destaques .destaquesInt{
+	width: 100%; 
+	max-width: 1142px; 
+	margin: auto;
+}
+.destaques .destaquesTitulo{
+	display: flex;
+	height: 26px;
+	align-items: center;
+	margin-bottom: 45px;
+}
+.destaques .destaquesTitulo .destaquesDes{
+	width: 280px;
+	height: 26px;
+	line-height: 26px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+    letter-spacing: 6px;
+    color: #3333FF;
+}
+.destaques .seta{
+	width: 100%;
+	max-width: 431px;
+	height: 2px;
+	background-color: #ccc;
+}
+.destaques .destaquesItens{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.destaques .destaquesItensInt{
+	max-width: 285px;
+	min-height: 403px;
+	margin-bottom: 82px;
+}
+.destaques .destaquesItensInt .foto{
+	width: 285px;
+	height: 245px;
+	margin-bottom: 17px;
+	text-align: center;
+}
+.destaques .destaquesItensInt .foto img{
+	background-color: #ccc;
+	width: 247px;
+	height: 245px;
+}
+.destaques .destaquesItensInt .descricao{
+	width: 247px;
+	margin-bottom: 40px;
+	color: #6666FF;
+	text-align: center;
+	padding-left: 19px;
+}
+.destaques .destaquesItensInt .valor{
+	color: #000099;
+	font-size: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.destaques .destaquesItensInt .valor .valorAnt{
+	margin-bottom: -10px;
+}
+.destaques .destaquesInt .valor .preco{
+	background-color: #FFF;
+}
+.destaques .destaquesItensInt .valor .precoD{
+	font-size: 15px;
+	color: #3333CC;
+}
+
+/* rodapé */
+/* footer{margin-top: 46px; border-top: 6px solid #FFCC00;} */
+.rodape{
+	/* .area{width: 100%; max-width: 1142px; margin: auto;} */
+}
+.rodape .rodapeInt{
+	width: 100%;
+}
+.rodape .social{
+	height: 106px;
+	display: flex;
+	justify-content: space-around;
+}
+.rodape .social .socialInt{
+	width: 100%;
+	max-width: 380px;
+	height: 106px;
+}
+.rodape .social .inscrever{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.rodape .social .inscrever .desc1{
+	color: #FF0000;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 7px;
+}
+.rodape .social .inscrever .desc2{
+	font-size: 12px;
+}
+.rodape .social .botao{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.rodape .social .botao .desc{
+	font-size: 12px;
+}
+.rodape .social .botao .btn{
+	margin-left: 20px;
+	margin-top: 2px;
+}
+.rodape .social .botao .btnYoutube{
+	width: 123px;
+	height: 20px;
+	border: 0;
+	border-radius: 2px;
+}
+.rodape .social .icones{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.rodape .social .icones img{
+	padding-left: 8px;
+}
+.rodape .links{
+	display: flex;
+	justify-content: space-around;
+	height: 346px;
+	border-top: 1px solid #ccc;
+	color: #003399;
+}
+.rodape .links .linksInt{
+	width: 100%;
+	max-width: 285px;
+	height: 286px;
+	margin-top: 60px;
+	flex: 1;
+}
+.rodape .links .empresa{
+	flex: 2;
+	max-width: 350px;
+	padding-right: 39px;
+}
+.rodape .links .linksInt .desc{
+	margin-top: 35px;
+}
+.rodape .links .linksInt a{
+	text-decoration: none;
+	color: #003399;
+} 
+.rodape .links .linksInt ul{
+	list-style-position: inside;
+    padding-left: 0px;
+}
+.rodape .links .linksInt li{
+	line-height: 28px;
+	font-size: 14px;
+}
+.rodape .links .linksInt .titulo h3{
+	text-transform: uppercase;
+	color: #0066CC;
+}
+.rodape .links .social{
+	flex: 2;
+	padding-left: 65px;
+}
+.rodape .info{
+	height: 125px;
+	display: flex;
+}
+.rodape .info .infoInt{
+	flex: 1;
+	height: 125px;
+	display: flex;
+	align-items: center;
+	color: #000099;
+	text-transform: uppercase;
+}
+.rodape .info .meioPag .desc{
+	padding-right: 20px;
+}
+.rodape .info .meioPag ul{
+	width: 50%;
+	height: 25px;
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.rodape .info .meioPag ul li{
+	width: 35px;
+	height: 22px;
+	border-radius: 2px;
+	background: url('../img/formas_de_pagamento/formas de pagamento.png');	
+	margin-right: 10px;
+	background-color: red;
+}
+.rodape .info .meioPag ul .meio1{
+	background-position: 0px 0;
+}
+.rodape .info .meioPag ul .meio2{
+	background-position: -50px 0;
+}
+.rodape .info .meioPag ul .meio3{
+	background-position: -100px 0;
+}
+.rodape .info .meioPag ul .meio4{
+	background-position: -150px 0;
+}
+.rodape .info .meioPag ul .meio5{
+	background-position: -200px 0;
+}
+.rodape .info .meioPag ul .meio6{
+	background-position: 0px -83px;
+}
+.rodape .info .seguro{
+	justify-content: flex-end;
+}
+.rodape .info .seguro img{
+	padding-left: 20px;
+}
+.copy{
+	width: 100%;
+	height: 170px;
+	text-align: center;
+	border-top: 1px solid #ccc;
+}
+.copy img{
+	margin-top: 28px;
+}
